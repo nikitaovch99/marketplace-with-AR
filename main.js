@@ -61,7 +61,7 @@ const activateAR = (href, productLink, isQuickLook) => {
 
 const initializeArButton = (productLink, src, iosSrc) => {
 
-  const base_url = window.location.origin + "/marketplace-with-AR";
+  const base_url = window.location.origin;
 
   if ((IS_IOS_CHROME || IS_IOS_SAFARI) && SUPPORTS_QUICKLOOK) {
     productLink.setAttribute("ar", "quick-look");

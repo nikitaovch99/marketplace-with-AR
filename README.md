@@ -1,5 +1,5 @@
 # Marketplace-with-AR
-[DEMO LINK](https://nikitaovch99.github.io/marketplace-with-AR/)
+[DEMO LINK](https://marketplace-with-ar.netlify.app/)
 
 ## Description
 
