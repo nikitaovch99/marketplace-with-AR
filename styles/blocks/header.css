@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../images/Group\ 38\ 1.png");
+  height: 54px;
+  width: 150px;
+}
+
+.header__language-selector {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../images/Component\ 2.png");
+  height: 40px;
+  width: 115px;
+  position: absolute;
+  right: 30px;
+}
+
+@media (max-width: 460px) {
+  .header__language-selector {
+    height: 30px;
+    width: 66px;
+    right: 20px;
+  }
+  .header__logo {
+    height: 43px;
+    width: 120px;
+  }
+}

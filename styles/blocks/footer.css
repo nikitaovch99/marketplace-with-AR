@@ -1,0 +1,42 @@
+.footer {
+  border-top: 1px solid #ffffff;
+}
+
+.footer-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer__logo {
+  width: 100px;
+  height: 36px;
+  background-image: url("../../images/advinlogo.png");
+}
+
+.footer__logo-2 {
+  width: 92px;
+  height: 15px;
+  background-image: url("../../images/advua.png");
+}
+
+.footer__copyright-rights {
+  margin: 40px 0 78px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+@media (max-width: 376px) {
+  .footer__copyright-rights {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 30px 0 54px;
+  }
+}

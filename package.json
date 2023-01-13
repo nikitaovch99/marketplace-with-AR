@@ -1,0 +1,22 @@
+{
+  "name": "ar-vr-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitaovch99/marketplace-with-AR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikitaovch99/marketplace-with-AR/issues"
+  },
+  "homepage": "https://github.com/nikitaovch99/marketplace-with-AR#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}

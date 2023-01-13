@@ -1,0 +1,44 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title__main {
+  font-family: "Furore";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 110%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.title__separator {
+  margin-top: 20px;
+  background-image: url("../../images/Line\ 3.svg");
+  height: 30px;
+  width: 1px;
+}
+
+.title__secondary {
+  margin-top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ff5722;
+}
+
+@media (max-width: 376px) {
+  .title__main {
+    font-size: 36px;
+  }
+  .title__secondary {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}

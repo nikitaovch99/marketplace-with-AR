@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>AR VR</title>
+  </head>
+  <body class="page">
+    <div class="container">
+      <div class="page__section header">
+        <div class="header__logo"></div>
+        <div class="header__language-selector"></div>
+      </div>
+      <div class="page__section-1 title">
+        <div class="title__main">
+          Маркетплейс <br />
+          з доповненою реальністю
+        </div>
+        <div class="title__separator"></div>
+        <div class="title__secondary">
+          3D-примірка реального товару <br />
+          у два кліки
+        </div>
+      </div>
+      <div class="page__section-2">
+        <div class="products">
+          <div class="products__card card">
+            <div class="card__title">стілець</div>
+            <div class="card__image">
+              <img src="./images/Стілець.png" alt="product" />
+            </div>
+            <div class="card__image-background">
+              <img src="./images/Стілець бекграунд.png" alt="background" />
+            </div>
+            <div class="card__qrcode qrcode">
+              <div class="qrcode__block image">
+                <img
+                  src="./images/Vector.png"
+                  alt="qrcode"
+                  class="image__qrcode"
+                />
+              </div>
+              <div class="qrcode__text"></div>
+            </div>
+          </div>
+          <div class="products__card card">
+            <div class="card__title">пральна машина</div>
+            <div class="card__image">
+              <img src="./images/Пральна.png" alt="product" />
+            </div>
+            <div class="card__image-background">
+              <img src="./images/Пральна бекграунд.png" alt="background" />
+            </div>
+            <div class="card__qrcode qrcode">
+              <div class="qrcode__block image">
+                <img
+                  src="./images/Vector.png"
+                  alt="qrcode"
+                  class="image__qrcode"
+                />
+              </div>
+              <div class="qrcode__text"></div>
+            </div>
+          </div>
+          <div class="products__card card">
+            <div class="card__title">диван</div>
+            <a class="product-link">
+              <div class="card__image">
+                <img src="./images/Диван.png" alt="product" class="src-image" />
+              </div>
+              <div class="card__image-background">
+                <img src="./images/Диван бекграунд.png" alt="background" />
+              </div>
+            </a>
+            <div class="card__color-selector selector">
+              <div class="selector__arrow">
+                <img src="./images/Arrow.png" alt="arrow" />
+              </div>
+              <div class="selector__colors colors">
+                <div class="colors__color-1"></div>
+                <div class="colors__color-2"></div>
+                <div class="colors__color-3"></div>
+                <div class="colors__color-4"></div>
+                <div class="colors__color-5"></div>
+              </div>
+              <div class="selector__arrow">
+                <img
+                  src="./images/Arrow.png"
+                  alt="arrow"
+                  class="selector__arrow-inverse"
+                />
+              </div>
+            </div>
+            <a href="" class="qrcode-link">
+              <div class="card__qrcode qrcode card__qrcode--sofa">
+                <div class="qrcode__block image">
+                  <img
+                    src="./images/Vector.png"
+                    alt="qrcode"
+                    class="image__qrcode"
+                  />
+                </div>
+                <div class="qrcode__text"></div>
+              </div>
+            </a>
+          </div>
+          <div class="products__card card">
+            <div class="card__title">ванна</div>
+            <div class="card__image">
+              <img src="./images/Ванна.png" alt="product" />
+            </div>
+            <div class="card__image-background">
+              <img src="./images/Ванна бекграунд.png" alt="background" />
+            </div>
+            <div class="card__qrcode qrcode">
+              <div class="qrcode__block image">
+                <img
+                  src="./images/Vector.png"
+                  alt="qrcode"
+                  class="image__qrcode"
+                />
+              </div>
+              <div class="qrcode__text"></div>
+            </div>
+          </div>
+          <div class="products__card card">
+            <div class="card__title">двері</div>
+            <div class="card__image">
+              <img src="./images/Двері.png" alt="product" />
+            </div>
+            <div class="card__image-background">
+              <img src="./images/Двері бекграунд.png" alt="background" />
+            </div>
+            <div class="card__qrcode qrcode">
+              <div class="qrcode__block image">
+                <img
+                  src="./images/Vector.png"
+                  alt="qrcode"
+                  class="image__qrcode"
+                />
+              </div>
+              <div class="qrcode__text"></div>
+            </div>
+          </div>
+          <div class="products__card card">
+            <div class="card__title">Кухонна машина “kenwood”</div>
+            <div class="card__image">
+              <img src="./images/Кухонна машина “kenwood”.png" alt="product" />
+            </div>
+            <div class="card__image-background">
+              <img
+                src="./images/Кухонна машина “kenwood” бекграунд.png"
+                alt="background"
+              />
+            </div>
+            <div class="card__qrcode qrcode">
+              <div class="qrcode__block image">
+                <img
+                  src="./images/Vector.png"
+                  alt="qrcode"
+                  class="image__qrcode"
+                />
+              </div>
+              <div class="qrcode__text"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="page__section-3 footer">
+        <div class="footer-logos">
+          <div class="footer__logo"></div>
+          <div class="footer__logo-2"></div>
+        </div>
+        <div class="footer__copyright-rights">©ADVIN Ukraine, 2022</div>
+      </footer>
+    </div>
+    <model-viewer
+      id="model"
+      class="mainSection"
+      style="width: 0; height: 0"
+      src=""
+      controls=""
+      auto-rotate=""
+      ar=""
+      camera-controls=""
+      alt="AR model"
+      reveal="auto"
+      ios-src="myUSDZ"
+      magic-leap=""
+      unstable-webxr=""
+      data-good="3"
+      ar-status="not-presenting"
+    ></model-viewer>
+  </body>
+</html>
